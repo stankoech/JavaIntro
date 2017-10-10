@@ -15,14 +15,15 @@ public class RectangleMain {
         int perimeter=0;
 
         length = 20;
-
         width =50;
 
         //area = length*width;
         //perimeter = (length+width)*2;
 
-        System.out.println("Area is "+area);
-        System.out.println("Perimeter is "+perimeter);
+
+
+        System.out.println("Area is: "+area);
+        System.out.println("Perimeter is: "+perimeter);
 
 
         area=MyFunctions.calculateArea(length,width);
@@ -46,7 +47,7 @@ public class RectangleMain {
 
         area = MyFunctions.calculateArea(someObject.getLength(),someObject.getWidth());
 
-        System.out.println("Area is:"+area);
+        System.out.println("Area of someObject is:"+area);
 
     }
 
