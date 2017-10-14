@@ -20,11 +20,8 @@ public class RectangleMain {
         //area = length*width;
         //perimeter = (length+width)*2;
 
-
-
         System.out.println("Area is: "+area);
         System.out.println("Perimeter is: "+perimeter);
-
 
         area=MyFunctions.calculateArea(length,width);
         perimeter=MyFunctions.calculatePerimeter(length,width);
@@ -35,7 +32,6 @@ public class RectangleMain {
         /**
          * Playing with rectangle image
          * We have created getters and setters and created 2 constructors
-         *
          * Rectangle is a datatype * someObject is an object
          * Rectangle() is the default constructor.
          */

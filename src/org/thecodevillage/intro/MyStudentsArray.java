@@ -29,7 +29,7 @@ public class MyStudentsArray {
 //        }
 
        // for (int i = 0; i< names.length; i++) {
-            System.out.println("Name: " + names[0]);
+            System.out.println("Name: " + names[1]);
        // }
 
 
