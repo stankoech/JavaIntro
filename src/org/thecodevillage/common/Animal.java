@@ -12,9 +12,11 @@ public class Animal {
     private Boolean canEat;
     private Boolean isPet;
 
+    //Blank constructor
     public Animal() {
     }
 
+    //Constructor with data
     public Animal(String name, int age, String kingdom, Boolean canBark, Boolean canMove, Boolean canEat, Boolean isPet) {
         this.name = name;
         this.age = age;
@@ -25,6 +27,7 @@ public class Animal {
         this.isPet = isPet;
     }
 
+    //Getters & Setters
     public String getName() {
         return name;
     }
