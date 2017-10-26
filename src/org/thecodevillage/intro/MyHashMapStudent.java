@@ -5,12 +5,12 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 
-import org.thecodevillage.common.Students;
+import org.thecodevillage.common.Student;
 
 /**
  * Created by Stankoech on 10/14/2017.
  */
-public class MyHashMapStudents {
+public class MyHashMapStudent {
 
     public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class MyHashMapStudents {
         Map<Integer, String> maHashmap = new HashMap<>();
 
         for (int i = 0; i < n; i++) {
-            Students student = new Students();
+            Student student = new Student();
             System.out.println("Enter the ID of student " + (i + 1));
             student.setId(scanner.nextInt());
             System.out.println("Enter the Reg_no of student " + (i + 1));

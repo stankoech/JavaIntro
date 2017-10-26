@@ -1,11 +1,10 @@
 package org.thecodevillage.intro;
 
-import org.thecodevillage.common.AnimalFunctions;
+import org.thecodevillage.common.AnimalFunction;
 import org.thecodevillage.common.Animal;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * Created by Stankoech on 10/12/2017.
@@ -89,7 +88,7 @@ public class AnimalMain {
 //            AnimalFunctions.pet(myanimal);
 //        }
 
-        AnimalFunctions.outputlist(animalList);
+        AnimalFunction.outputlist(animalList);
 
        // System.out.println("Name: " + animals);
 

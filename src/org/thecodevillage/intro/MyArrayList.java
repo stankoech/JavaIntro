@@ -1,6 +1,6 @@
 package org.thecodevillage.intro;
 
-import org.thecodevillage.common.MyFunctions;
+import org.thecodevillage.common.MyFunction;
 import org.thecodevillage.common.Rectangle;
 
 import java.util.ArrayList;
@@ -39,19 +39,19 @@ public class MyArrayList {
         Rectangle object1 = new Rectangle();
         object1.setLength(40);
         object1.setWidth(20);
-        area1=MyFunctions.calculateArea(object1.getLength(), object1.getWidth());
+        area1= MyFunction.calculateArea(object1.getLength(), object1.getWidth());
         object1.setArea(area1);
 
         Rectangle object2 = new Rectangle();
         object2.setLength(50);
         object2.setWidth(100);
-        area2=MyFunctions.calculateArea(object2.getLength(), object2.getWidth());
+        area2= MyFunction.calculateArea(object2.getLength(), object2.getWidth());
         object2.setArea(area2);
 
         Rectangle object3 = new Rectangle();
         object3.setLength(60);
         object3.setWidth(40);
-        area3=MyFunctions.calculateArea(object3.getLength(), object3.getWidth());
+        area3= MyFunction.calculateArea(object3.getLength(), object3.getWidth());
         object3.setArea(area3);
 
 //        System.out.println("Area 1 is:"+area1);

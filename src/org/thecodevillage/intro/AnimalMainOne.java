@@ -1,7 +1,7 @@
 package org.thecodevillage.intro;
 
 import org.thecodevillage.common.Animal;
-import org.thecodevillage.common.AnimalFunctions;
+import org.thecodevillage.common.AnimalFunction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -48,7 +48,7 @@ public class AnimalMainOne {
             animalList.add(animal);
         }
 
-        AnimalFunctions.outputlist(animalList);
+        AnimalFunction.outputlist(animalList);
         // System.out.println("Name: " + animals);
 
     }

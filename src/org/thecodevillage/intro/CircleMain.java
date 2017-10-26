@@ -1,6 +1,6 @@
 package org.thecodevillage.intro;
 
-import org.thecodevillage.common.MyFunctions;
+import org.thecodevillage.common.MyFunction;
 import org.thecodevillage.common.MyCircle;
 
 import java.util.Scanner;
@@ -26,8 +26,8 @@ public class CircleMain {
      //  System.out.println("Area is :"+area);
         // System.out.println("Parameter is :"+perimeter);
 
-        area=MyFunctions.calcArea(pi,radius);
-        perimeter=MyFunctions.calcPerim(pi,radius);
+        area= MyFunction.calcArea(pi,radius);
+        perimeter= MyFunction.calcPerim(pi,radius);
 
        // System.out.println("Area is :"+area);
        // System.out.println("Parameter is :"+perimeter);
@@ -37,13 +37,13 @@ public class CircleMain {
         objMyobject.setRadius(radius);
         objMyobject.setPi(pi);
 
-       area =MyFunctions.calcArea(objMyobject.getRadius(),pi);
+       area = MyFunction.calcArea(objMyobject.getRadius(),pi);
 
 // sta/per is an object variable used to store the value returned in MyFunctions.calcArea
 
-       MyCircle sta =MyFunctions.calcArea(objMyobject);
+       MyCircle sta = MyFunction.calcArea(objMyobject);
 
-        MyCircle per =MyFunctions.calcperim(objMyobject);
+        MyCircle per = MyFunction.calcperim(objMyobject);
 
        System.out.println("Area of the circle is:"+area);
 

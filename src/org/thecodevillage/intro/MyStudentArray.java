@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Stankoech on 10/7/2017.
  */
-public class MyStudentsArray {
+public class MyStudentArray {
 
     public static void main(String[] args){
 

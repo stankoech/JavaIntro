@@ -38,11 +38,14 @@ public class PeriodicTable {
         String name = input.nextLine();
 
        //One way of doing it
-        for (String key : ptable.keySet()) {
-            if (ptable.get(key).equals(name)) {
-                System.out.println("Element: " + key + " Symbol: " + name);
-            }
-        }
+//        for (String key : ptable.keySet()) {
+//            if (ptable.get(key).equalsIgnoreCase(name)) {
+//                System.out.println("Element: " + key + " Symbol: " + name);
+//            }
+//        }
+        String res=ptable.get(name);
+        System.out.println("##: " + res);
+
         //Second way of doing it.
  /*       Set<String> keys = ptable.keySet();
         for (String key : keys) {
@@ -62,5 +65,4 @@ public class PeriodicTable {
             it.remove();
         }
     }*/
-
 }

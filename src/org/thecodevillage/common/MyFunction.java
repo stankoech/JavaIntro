@@ -3,7 +3,7 @@ package org.thecodevillage.common;
 /**
  * Created by Stankoech on 10/3/2017.
  */
-public class MyFunctions {
+public class MyFunction {
     public static int calculateArea(int length, int width){
         return length * width;
     }

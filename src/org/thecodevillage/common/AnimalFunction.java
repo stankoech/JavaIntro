@@ -1,13 +1,11 @@
 package org.thecodevillage.common;
 
-import org.thecodevillage.intro.Animals;
-
 import java.util.List;
 
 /**
  * Created by Stankoech on 10/12/2017.
  */
-public class AnimalFunctions {
+public class AnimalFunction {
 
     public static void pet(Animal myanimal){
         if (myanimal.getPet()==Boolean.TRUE){
@@ -38,9 +36,9 @@ public class AnimalFunctions {
              Animal myanimal=animalList.get(y);
              System.out.println("Name:" +myanimal.getName()+" Age: "+myanimal.getAge()+" Kingdom: " +myanimal.getKingdom()+
                      " canBark: "+myanimal.getCanBark()+" canMove: "+myanimal.getCanMove()+" isPet: "+myanimal.getPet());
-             AnimalFunctions.bark(myanimal);
-             AnimalFunctions.move(myanimal);
-             AnimalFunctions.pet(myanimal);
+             AnimalFunction.bark(myanimal);
+             AnimalFunction.move(myanimal);
+             AnimalFunction.pet(myanimal);
          }
     }
 }

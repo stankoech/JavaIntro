@@ -1,6 +1,6 @@
 package org.thecodevillage.intro;
 
-import org.thecodevillage.common.MyFunctions;
+import org.thecodevillage.common.MyFunction;
 import org.thecodevillage.common.Rectangle;
 
 /**
@@ -23,8 +23,8 @@ public class RectangleMain {
         System.out.println("Area is: "+area);
         System.out.println("Perimeter is: "+perimeter);
 
-        area=MyFunctions.calculateArea(length,width);
-        perimeter=MyFunctions.calculatePerimeter(length,width);
+        area= MyFunction.calculateArea(length,width);
+        perimeter= MyFunction.calculatePerimeter(length,width);
 
         System.out.println("Area is "+area);
         System.out.println("Perimeter is "+perimeter);
@@ -41,7 +41,7 @@ public class RectangleMain {
         someObject.setLength(50);
         someObject.setWidth(40);
 
-        area = MyFunctions.calculateArea(someObject.getLength(),someObject.getWidth());
+        area = MyFunction.calculateArea(someObject.getLength(),someObject.getWidth());
 
         System.out.println("Area of someObject is:"+area);
 
